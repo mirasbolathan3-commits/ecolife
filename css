@@ -1,0 +1,13 @@
+
+body{margin:0;font-family:Arial;background:#f7fff7}
+header{background:#1f9d55;color:#fff}
+.container{max-width:1000px;margin:auto;padding:20px}
+.nav{display:flex;align-items:center;justify-content:space-between}
+nav a{color:#fff;margin:0 8px;text-decoration:none}
+.logo{display:flex;align-items:center;gap:8px}
+.hero{padding:60px 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.cards li{background:#e6f7ee;padding:20px;border-radius:8px;list-style:none}
+footer{background:#0b5d34;color:#fff;text-align:center}
+.lang button{margin-left:5px}
+.form input,.form textarea{width:100%;margin:6px 0;padding:8px}
